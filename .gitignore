@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Flask
+instance/
+.webassets-cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+
+# Uploads ve Static dosyaları (kullanıcı dosyaları)
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.png
+uploads/*.gif
+static/*.jpg
+static/*.jpeg
+static/*.png
+static/*.gif
+
+# SAM2 Model dosyaları (büyük dosyalar)
+models/*.pt
+models/*.pth
+
+# Log dosyaları
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Node modules (eğer frontend'e eklenirse)
+node_modules/
